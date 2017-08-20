@@ -27,5 +27,5 @@ def make_app():
 
 if __name__ == "__main__":
     app = make_app()
-    app.listen(8888,'0.0.0.0')
+    app.listen(7777,'0.0.0.0')
     tornado.ioloop.IOLoop.current().start()
